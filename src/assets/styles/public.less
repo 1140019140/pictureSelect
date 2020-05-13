@@ -1,0 +1,23 @@
+@import '../styles/variable.less';
+
+html{
+  background-color: @body-bg;
+}
+.hi_icon{
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+.parabolaImg{
+  // 商品详情底部加入购物车抛物线的
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  visibility: hidden;
+  opacity: .5;
+  z-index: 999;
+}
